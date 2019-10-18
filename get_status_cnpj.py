@@ -50,10 +50,6 @@ dt['situacao'] = situacao
 dt['motivo_situacao'] = motivoSituacao
 dt['data_situacao'] = dataSituacao
 
-
-# In[37]:
-
-
 #salvando tudo em um novo arquivo
 dt.to_excel('EMP_CNPJS_ATIVIDADES.xlsx')
 
